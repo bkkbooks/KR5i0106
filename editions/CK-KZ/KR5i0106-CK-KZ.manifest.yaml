@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0106/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5i0106/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 青玄濟煉鐵貫斛食
+  date: '2015-08-29 17:47:43.977383'
+  source:
+    repository: kanripo
+    path: KR5i0106
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0106_001-CK-KZ.yaml, hash: 'sha256:e844f5142ff4ffe6e48137af7a3fa95e2af5230759149a70c6ec954ca5ef5404'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0106_001-CK-KZ.markers.yaml, hash: 'sha256:7ab5576fdb0ea18532fafc268d97ab684950bc9d5e73f60ee93d2e2f42595d82'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-EX_KR5i0106_01p001a
+    span:
+    - body
+    - 0
+    - 9027
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:2a0d96716a8634ed4a501fdfdf50d61cba7df9b85c7c4538c07055881e4c11ab
